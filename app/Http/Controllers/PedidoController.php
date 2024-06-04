@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Carbon\Carbon;
 use App\Models\Pedido;
 use App\Models\PedidoProducto;
+use App\Http\Resources\PedidoCollection;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -17,7 +18,7 @@ class PedidoController extends Controller
      */
     public function index()
     {
-        //
+        return new PedidoCollection(Pedido::with('user')->with('productos')->where('estado', 0)->get());
     }
 
     /**
@@ -81,7 +82,12 @@ class PedidoController extends Controller
      */
     public function update(Request $request, Pedido $pedido)
     {
-        //
+        $pedido->estado = 1;
+        $pedido->save();
+
+        return [
+            'pedido' => $pedido
+        ];
     }
 
     /**
