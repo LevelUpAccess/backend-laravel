@@ -19,35 +19,35 @@ class CategoriaSeeder extends Seeder
 
         DB::table('categorias')->insert([
             'nombre' => 'Más vendidos',
-            'icono' => 'hamburguesa',
+            'icono' => 'mas_vendidos',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
 
         DB::table('categorias')->insert([
             'nombre' => 'Más jugados',
-            'icono' => 'hamburguesa',
+            'icono' => 'mas_jugados',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
         
         DB::table('categorias')->insert([
             'nombre' => 'Destacados',
-            'icono' => 'hamburguesa',
+            'icono' => 'destacados',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
         
         DB::table('categorias')->insert([
             'nombre' => 'Nuevos lanzamientos',
-            'icono' => 'hamburguesa',
+            'icono' => 'nuevos_lanzamientos',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
         
         DB::table('categorias')->insert([
             'nombre' => 'Juegos gratuitos',
-            'icono' => 'hamburguesa',
+            'icono' => 'juegos_gratuitos',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
@@ -55,7 +55,7 @@ class CategoriaSeeder extends Seeder
         
         DB::table('categorias')->insert([
             'nombre' => 'Más populares',
-            'icono' => 'hamburguesa',
+            'icono' => 'mas_populares',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
