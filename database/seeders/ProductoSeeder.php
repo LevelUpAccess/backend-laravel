@@ -21,7 +21,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Alan Wake 2",
                 'precio' => 873,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "alan_wake_2",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -30,7 +30,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Black Myth: Wukong",
                 'precio' => 999,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "black_myth_wukong",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -39,7 +39,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "EA SPORTS FC 24",
                 'precio' => 1099,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "fc_24",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -48,7 +48,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Grand Theft Auto V",
                 'precio' => 599,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "gta_5",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -57,7 +57,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Red Dead Redemption 2",
                 'precio' => 1299,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "red_dead_redemption_2",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -66,7 +66,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Marvel's Midnight Suns",
                 'precio' => 1299,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "marvels_midnight_suns",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -75,7 +75,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Cyberpunk 2077",
                 'precio' => 1504.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "cyberpunk_2077",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -84,7 +84,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Dead by Daylight",
                 'precio' => 299.85,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "dead_by_daylight",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -93,7 +93,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Chivalry 2",
                 'precio' => 323.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "chivalry_2",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -102,7 +102,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Manor Lords",
                 'precio' => 499.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "manor_lords",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -111,7 +111,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "God of War",
                 'precio' => 829,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "god_of_war",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -120,16 +120,16 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Horizon Forbidden West",
                 'precio' => 999,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "horizon_forbidden_west",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ),
             array( 
-                'nombre' =>  "Dead Islind 2",
+                'nombre' =>  "Dead Island 2",
                 'precio' => 950,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "dead_island_2",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -138,7 +138,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Hogwarts Legacy",
                 'precio' => 999,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "hogwarts_legacy",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -147,7 +147,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Assassin's Creed Mirage",
                 'precio' => 999,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "assassins_creed_mirage",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -156,7 +156,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Marvel's Spider-Man Remastered",
                 'precio' => 999,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "spider_man_remastered",
                 'categoria_id' => 1,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -166,7 +166,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Fortnite",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "fortnite",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -175,7 +175,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Rocket League",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "rocket_league",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -184,7 +184,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Grand Theft Auto V",
                 'precio' => 599,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "gta_5",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -193,7 +193,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Wuthering Waves",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "wuthering_waves",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -202,7 +202,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Farming Simulator 22",
                 'precio' => 539,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "farming_simulator_22",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -211,7 +211,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "VALORANT",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "valorant",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -220,7 +220,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Genshin Impact",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "genshin_impact",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -229,7 +229,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Chivalry 2",
                 'precio' => 323.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "chivalry_2",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -238,7 +238,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "EA SPORTS FC 24",
                 'precio' => 1099,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "fc_24",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -247,7 +247,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Honkai: Star Rail",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "honkai_star_rail",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -256,7 +256,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "NARAKA: BLADEPOINT",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "naraka_bladepoint",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -265,7 +265,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Marvel's Midnight Suns",
                 'precio' => 1299,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "marvels_midnight_suns",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -274,7 +274,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Sid Meier's Civilization VI",
                 'precio' => 599,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "sid_meiers_civilization_vi",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -283,7 +283,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Fall Guys",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "fall_guys",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -292,7 +292,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "The Sims 4",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "the_sims_4",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -301,7 +301,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Destiny 2",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "destiny_2",
                 'categoria_id' => 2,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -311,7 +311,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "'n Verlore Verstand",
                 'precio' => 133.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "verlore_verstand",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -320,7 +320,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "7 Billion Humans",
                 'precio' => 156.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "7_billion_humans",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -329,7 +329,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "8Doors: Arum's Afterlife Adventure",
                 'precio' => 161.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "8doors",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -338,7 +338,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "A Good Snowman Is Hard To Build",
                 'precio' => 133.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "a_good_snowman_is_hard_to_build",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -347,7 +347,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "A long Journey to an Uncertain End",
                 'precio' => 222.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "a_long_journey_to_an_uncertain_end",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -356,7 +356,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "A Monster's Expedition",
                 'precio' => 222.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "a_monsters_expedition",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -365,7 +365,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "A Plague Tale: Requiem",
                 'precio' => 699.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "a_plague_tale",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -374,7 +374,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "A Total War Saga: TROY",
                 'precio' => 730,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "a_total_war_saga",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -383,7 +383,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "ABZÚ",
                 'precio' => 156.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "abzu",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -392,7 +392,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Ad Infinitum",
                 'precio' => 409.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "ad_infinitum",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -401,7 +401,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Aeon Must Die!",
                 'precio' => 269.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "aeon_must_die",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -410,7 +410,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "AER Memories of Old",
                 'precio' => 122.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "aer_memories_of_old",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -419,7 +419,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Aerial_Knight's Never Yield",
                 'precio' => 133.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "aerial_knights",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -428,7 +428,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Against the Storm",
                 'precio' => 399.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "against_the_storm",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -437,7 +437,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Ageless",
                 'precio' => 156.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "ageless",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -446,7 +446,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Aground",
                 'precio' => 120.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "aground",
                 'categoria_id' => 3,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -456,7 +456,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Ghost of Tsushima",
                 'precio' => 999,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "ghost_of_tsushima",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -465,7 +465,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "F1 24",
                 'precio' => 1299,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "f1_24",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -474,7 +474,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Manor Lords",
                 'precio' => 499.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "manor_lords",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -483,7 +483,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Horizon Forbidden West",
                 'precio' => 999,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "horizon_forbidden_west",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -492,7 +492,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Need for Speed Heat",
                 'precio' => 1599,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "need_for_speed_heat",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -501,7 +501,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Hades II",
                 'precio' => 334.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "hades_ii",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -510,7 +510,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Battlefield 1 Revolution",
                 'precio' => 899,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "battlefield_1_revolution",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -519,7 +519,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Suicide Squad",
                 'precio' => 99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "suicide_squad",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -528,7 +528,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "SKULL AND BONES",
                 'precio' => 1199,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "skull_and_bones",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -537,7 +537,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Crosshair X",
                 'precio' => 71.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "crosshair_x",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -546,7 +546,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Need for Speed",
                 'precio' => 639,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "need_for_speed",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -555,7 +555,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Battlefieled 4",
                 'precio' => 899,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "battlefield_4",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -564,7 +564,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Avatar: Frontiers of Pandora",
                 'precio' => 1399,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "avatar",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -573,7 +573,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Need for Speed Most Wanted",
                 'precio' => 439,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "need_for_speed_most_wanted",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -582,7 +582,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Fallout 4",
                 'precio' => 359,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "fallout_4",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -591,7 +591,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Titanfall 2",
                 'precio' => 639,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "titanfall_2",
                 'categoria_id' => 4,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -601,7 +601,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Fortnite",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "fortnite",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -610,7 +610,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Rocket League",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "rocket_league",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -619,7 +619,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Wuthering Waves",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "wuthering_waves",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -628,7 +628,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Genshin Impact",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "genshin_impact",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -637,7 +637,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Honkai: Star Rail",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "honkai_star_rail",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -646,7 +646,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Fall Guys",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "fall_guys",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -655,7 +655,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "The Sims 4",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "the_sims_4",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -664,7 +664,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Destiny 2",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "destiny_2",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -673,7 +673,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "MultiVersus",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "multiversus",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -682,7 +682,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Valorant",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "valorant",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -691,7 +691,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "NARAKA: BLADEPOINT",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "naraka_bladepoint",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -700,7 +700,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "PUBG: BATTLEGROUNDS",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "pubg_battlegrounds",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -709,7 +709,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Idle Champions of the Forgotten Realms",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "idle_champions_of_the_forgotten_realms",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -718,16 +718,16 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Firestone Online Idle RPG",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "firestone_online_idle_rpg",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ),
             array( 
-                'nombre' =>  "Warfreame",
+                'nombre' =>  "Warframe",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "warframe",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -736,7 +736,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Dauntless",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "dauntless",
                 'categoria_id' => 5,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -746,7 +746,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Grand Theft Auto V",
                 'precio' => 599,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "gta_5",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -755,7 +755,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Farming Simulator 22",
                 'precio' => 539,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "farming_simulator_22",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -764,7 +764,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "VALORANT",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "valorant",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -773,7 +773,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "EA SPORTS FC 24",
                 'precio' => 1099,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "fc_24",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -782,7 +782,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "NARAKA: BLADEPOINT",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "naraka_bladepoint",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -791,7 +791,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Red Dead Redemption 2",
                 'precio' => 1299,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "red_dead_redemption_2",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -800,7 +800,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Dead by Daylight",
                 'precio' => 299.85,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "dead_by_daylight",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -809,7 +809,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Bloons TD 6",
                 'precio' => 149.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "bloons_td_6",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -818,7 +818,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Among Us",
                 'precio' => 39.99,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "among_us",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -827,7 +827,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Dragon Age: Inquisition",
                 'precio' => 729,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "dragon_age_inquisition",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -836,7 +836,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Dying Light Definitive Edition",
                 'precio' => 749,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "dying_light_definitive_edition",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -845,7 +845,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Tom Clancy's Rainbow Six Siege",
                 'precio' => 399,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "r6",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -854,7 +854,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Cyberpunk 2077",
                 'precio' => 1999,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "cyberpunk_2077",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -863,7 +863,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "League of Legends",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "lol",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -872,7 +872,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "STAR WARS Battlefront II",
                 'precio' => 899,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "star_wars_battlefront_ii",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
@@ -881,7 +881,7 @@ class ProductoSeeder extends Seeder
             array( 
                 'nombre' =>  "Magic: The Gathering Arena",
                 'precio' => 0,
-                'imagen' => "hamburguesas_01",
+                'imagen' => "magic_the_gathering_arena",
                 'categoria_id' => 6,
                 'disponible' => true,
                 'created_at' => Carbon::now(),
