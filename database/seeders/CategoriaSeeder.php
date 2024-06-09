@@ -16,46 +16,57 @@ class CategoriaSeeder extends Seeder
      */
     public function run()
     {
+
         DB::table('categorias')->insert([
-            'nombre' => 'Café',
-            'icono' => 'cafe',
+            'nombre' => 'Más vendidos',
+            'icono' => 'hamburguesa',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
-        
+
         DB::table('categorias')->insert([
-            'nombre' => 'Hamburguesas',
+            'nombre' => 'Más jugados',
             'icono' => 'hamburguesa',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
         
         DB::table('categorias')->insert([
-            'nombre' => 'Pizzas',
-            'icono' => 'pizza',
+            'nombre' => 'Destacados',
+            'icono' => 'hamburguesa',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
         
         DB::table('categorias')->insert([
-            'nombre' => 'Donas',
-            'icono' => 'dona',
+            'nombre' => 'Nuevos lanzamientos',
+            'icono' => 'hamburguesa',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
         
         DB::table('categorias')->insert([
-            'nombre' => 'Pasteles',
-            'icono' => 'pastel',
+            'nombre' => 'Juegos gratuitos',
+            'icono' => 'hamburguesa',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
         
+        
         DB::table('categorias')->insert([
-            'nombre' => 'Galletas',
-            'icono' => 'galletas',
+            'nombre' => 'Más populares',
+            'icono' => 'hamburguesa',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
+
+        DB::table('categorias')->insert([
+            'nombre' => 'Ofertas',
+            'icono' => 'hamburguesa',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+       
+
     }
 }
