@@ -34,5 +34,8 @@ Route::middleware('auth:sanctum')->group(function() {
 });
 
 //Autenticacion
+Route::get('/bienvenida', [AuthController::class, 'index']);
+
 Route::post('/registro', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
+
