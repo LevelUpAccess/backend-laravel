@@ -1,0 +1,4 @@
+[phases.setup]
+nixpkgs = [
+  "php81" 
+]
