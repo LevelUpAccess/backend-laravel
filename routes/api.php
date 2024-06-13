@@ -3,6 +3,7 @@
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CategoriaController;
 use App\Http\Controllers\PedidoController;
+use App\Http\Controllers\DeseoController;
 use App\Http\Controllers\ProductoController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -28,9 +29,10 @@ Route::middleware('auth:sanctum')->group(function() {
     //Almacenar ordenes
     Route::apiResource('/pedidos', PedidoController::class);
 
-    
+    Route::apiResource('/deseos', DeseoController::class);
+
     Route::apiResource('/categorias', CategoriaController::class);
-    
+
 });
 
 //Autenticacion
@@ -43,4 +45,4 @@ Route::get('productos/search', [ProductoController::class, 'search']);
 Route::apiResource('/productos', ProductoController::class);
 
 
-    
+
