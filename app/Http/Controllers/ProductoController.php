@@ -16,7 +16,6 @@ class ProductoController extends Controller
     public function index()
     {
         return new ProductoCollection(Producto::where('disponible', 1)->orderBy('id', 'DESC')->get());
-        //return new ProductoCollection(Producto::where('disponible', 1)->orderBy('id', 'DESC')->paginate(10));
     }
 
     /**
@@ -67,5 +66,16 @@ class ProductoController extends Controller
     public function destroy(Producto $producto)
     {
         //
+    }
+
+    public function search(Request $request)
+    {
+        $query = $request->input('query');
+        $productos = Producto::where('nombre', 'LIKE', "%{$query}%")
+                            ->where('disponible', 1)
+                            ->orderBy('id', 'DESC')
+                            ->get();
+
+        return new ProductoCollection($productos);
     }
 }

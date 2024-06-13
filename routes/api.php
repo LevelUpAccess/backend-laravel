@@ -30,12 +30,17 @@ Route::middleware('auth:sanctum')->group(function() {
 
     
     Route::apiResource('/categorias', CategoriaController::class);
-    Route::apiResource('/productos', ProductoController::class);
+    
 });
 
 //Autenticacion
 Route::get('/bienvenida', [AuthController::class, 'index']);
-
 Route::post('/registro', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 
+Route::get('productos/search', [ProductoController::class, 'search']);
+
+Route::apiResource('/productos', ProductoController::class);
+
+
+    
