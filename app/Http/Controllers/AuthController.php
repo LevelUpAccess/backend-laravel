@@ -62,6 +62,10 @@ class AuthController extends Controller
     public function update(Request $request) {
         $user = $request->user();
 
+        $messages = ['current_password.required' => 'Es necesario ingresar la contraseña actual para confirmar.',
+        
+        ];
+
         $data = $request->validate([
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'email', Rule::unique('users')->ignore($user->id)],
