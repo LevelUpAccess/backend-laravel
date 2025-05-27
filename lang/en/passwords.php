@@ -18,6 +18,6 @@ return [
     'throttled' => 'Por favor, espera antes de volver a intentarlo.',
     'token' => 'Este token para restablecer la contraseña no es válido.',
     'user' => 'No podemos encontrar un usuario con esa dirección de correo electrónico.',
-
+    'current_password.required' => 'Es necesario ingresar la contraseña actual para confirmar.',
 
 ];

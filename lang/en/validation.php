@@ -120,8 +120,8 @@ return [
     'uuid' => 'El campo :attribute debe ser un UUID válido.',
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'mensaje-personalizado',
+        'current_password' => [
+            'required' => 'Es necesario ingresar la contraseña actual para confirmar.',
         ],
     ],
 
