@@ -63,7 +63,7 @@ class AuthController extends Controller
         $user = $request->user();
 
         $messages = ['current_password.required' => 'Es necesario ingresar la contraseña actual para confirmar.',
-        
+        'password.confirmed' => 'La confirmación de la nueva contraseña no coincide.',
         ];
 
         $data = $request->validate([
