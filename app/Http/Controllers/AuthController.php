@@ -7,6 +7,9 @@ use App\Http\Requests\RegistroRequest;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Validation\Rule;
+use Illuminate\Support\Facades\Hash;
+
 
 class AuthController extends Controller
 {
@@ -54,5 +57,36 @@ class AuthController extends Controller
         return [
             'user' => null
         ];
+    }
+
+    public function update(Request $request) {
+        $user = $request->user();
+
+        $data = $request->validate([
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'email', Rule::unique('users')->ignore($user->id)],
+            'current_password' => ['required'],
+            'password' => ['nullable', 'confirmed', 'min:6'],
+        ]);
+
+        if (!Hash::check($data['current_password'], $user->password)) {
+            return response()->json([
+                'message' => 'La contraseña actual es incorrecta.'
+            ], 422);
+        }
+
+        $user->name = $data['name'];
+        $user->email = $data['email'];
+
+        if (!empty($data['password'])) {
+            $user->password = Hash::make($data['password']);
+        }
+
+        $user->save();
+
+        return response()->json([
+            'message' => 'Usuario actualizado correctamente',
+            'user' => $user,
+        ]);
     }
 }
