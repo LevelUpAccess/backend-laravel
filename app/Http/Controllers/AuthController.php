@@ -62,49 +62,41 @@ class AuthController extends Controller
     public function update(Request $request) {
         $user = $request->user();
 
-        $validator = Validator::make($request->all(), [
-        'name' => ['required', 'string', 'max:255'],
-        'email' => ['required', 'email', Rule::unique('users')->ignore($user->id)],
-        'current_password' => ['required'],
-        'password' => ['nullable', 'confirmed', 'min:6'],
-    ], [
-        'name.required' => 'El nombre es obligatorio.',
-        'email.required' => 'El correo es obligatorio.',
-        'email.email' => 'El correo debe ser una dirección válida.',
-        'email.unique' => 'El correo ya está en uso.',
+        $messages = [
         'current_password.required' => 'Es necesario ingresar la contraseña actual para confirmar.',
         'password.confirmed' => 'La confirmación de la nueva contraseña no coincide.',
         'password.min' => 'La nueva contraseña debe tener al menos 6 caracteres.',
-    ]);
+        'name.required' => 'El nombre es obligatorio.',
+        'email.required' => 'El correo es obligatorio.',
+        'email.email' => 'El correo debe ser válido.',
+        'email.unique' => 'El correo ya está en uso por otro usuario.',
+        ];
 
-    //si la validación falla, devolvemos errores personalizados
-    if ($validator->fails()) {
+        $data = $request->validate([
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'email', Rule::unique('users')->ignore($user->id)],
+            'current_password' => ['required'],
+            'password' => ['nullable', 'confirmed', 'min:6'],
+        ]);
+
+        if (!Hash::check($data['current_password'], $user->password)) {
+            return response()->json([
+                'message' => 'La contraseña actual es incorrecta.'
+            ], 422);
+        }
+
+        $user->name = $data['name'];
+        $user->email = $data['email'];
+
+        if (!empty($data['password'])) {
+            $user->password = Hash::make($data['password']);
+        }
+
+        $user->save();
+
         return response()->json([
-            'errors' => $validator->errors()
-        ], 422);
-    }
-
-    $data = $validator->validated();
-
-    //verificamos la contraseña actual
-    if (!Hash::check($data['current_password'], $user->password)) {
-        return response()->json([
-            'message' => 'La contraseña actual es incorrecta.'
-        ], 422);
-    }
-
-    $user->name = $data['name'];
-    $user->email = $data['email'];
-
-    if (!empty($data['password'])) {
-        $user->password = Hash::make($data['password']);
-    }
-
-    $user->save();
-
-    return response()->json([
-        'message' => 'Usuario actualizado correctamente',
-        'user' => $user,
-    ]);
+            'message' => 'Usuario actualizado correctamente',
+            'user' => $user,
+        ]);
     }
 }
